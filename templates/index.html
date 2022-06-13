@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Home - Create Student</title>
+</head>
+<body>
+    <form action="/home" method="POST">
+        <div>
+            <label for="name">
+                Your Name:
+            </label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="location">
+                Status:
+            </label>
+            <select name="location" id="location">
+                <option value="San_Jose">San Jose</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Online">Online</option>
+            </select>
+        </div>
+        <div>
+            <label for="language">
+                Status:
+            </label>
+            <select name="language" id="language">
+                <option value="Python">Python</option>
+                <option value="Javascript">Javascript</option>
+                <option value="C_Sharp">C#</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="comment">Comment (optional):</label>
+            <input type="text" id="comment" name="comment">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
